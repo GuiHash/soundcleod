@@ -112,6 +112,12 @@ NSString *const SCNavigateJS = @"history.replaceState(null, null, '%@');e=new Ev
     [prefs setCacheModel:WebCacheModelPrimaryWebBrowser];
     [prefs setPlugInsEnabled:FALSE]; // Prevent loading outdated and disabled Flash plugin (and everything else too:)
     
+    [prefs setUserStyleSheetEnabled:YES];
+    
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"style" ofType:@"css"];
+
+    [prefs setUserStyleSheetLocation:[NSURL URLWithString:filePath]];
+    
     [prefs _setLocalStorageDatabasePath:@"~/Library/Application Support/SoundCleod"];
     [prefs setLocalStorageEnabled:YES];
     

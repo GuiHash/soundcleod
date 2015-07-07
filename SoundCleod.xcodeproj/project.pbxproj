@@ -27,6 +27,7 @@
 		26FF31111680734B0091448C /* PopupController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26FF31091680734B0091448C /* PopupController.m */; };
 		3A295065175FDF560038B28C /* SCDApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A295064175FDF560038B28C /* SCDApplication.m */; };
 		5DC7C72219D405D50007FE30 /* NSURL+SCUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC7C72119D405D50007FE30 /* NSURL+SCUtils.m */; };
+		C21001D61B4C07120038735B /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = C21001D51B4C07120038735B /* style.css */; };
 		DF1AA32319F64CC1008618E4 /* sound_up.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1AA32219F64CC1008618E4 /* sound_up.m */; };
 		DF1AA32619F64CF9008618E4 /* AppleMikeyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1AA32519F64CF9008618E4 /* AppleMikeyManager.m */; };
 		DF1AA32819F6513C008618E4 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF1AA32719F6513C008618E4 /* IOKit.framework */; };
@@ -79,6 +80,7 @@
 		3A295064175FDF560038B28C /* SCDApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCDApplication.m; sourceTree = "<group>"; };
 		5DC7C72019D405D50007FE30 /* NSURL+SCUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+SCUtils.h"; sourceTree = "<group>"; };
 		5DC7C72119D405D50007FE30 /* NSURL+SCUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+SCUtils.m"; sourceTree = "<group>"; };
+		C21001D51B4C07120038735B /* style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = style.css; path = ../style.css; sourceTree = "<group>"; };
 		DF1AA32119F64CC1008618E4 /* sound_up.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sound_up.h; sourceTree = "<group>"; };
 		DF1AA32219F64CC1008618E4 /* sound_up.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sound_up.m; sourceTree = "<group>"; };
 		DF1AA32419F64CF9008618E4 /* AppleMikeyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleMikeyManager.h; sourceTree = "<group>"; };
@@ -177,7 +179,6 @@
 				26FF31081680734B0091448C /* PopupController.h */,
 				26FF31091680734B0091448C /* PopupController.m */,
 				26FF311C168075A50091448C /* Resources */,
-				2657165F1A30CC8B00BB58B8 /* Safari.h */,
 				3A295063175FDF560038B28C /* SCDApplication.h */,
 				3A295064175FDF560038B28C /* SCDApplication.m */,
 				26FF310B1680734B0091448C /* SoundCleod-Prefix.pch */,
@@ -191,7 +192,7 @@
 			isa = PBXGroup;
 			children = (
 				26FF31011680734B0091448C /* Credits.rtf */,
-				2657165D1A309CB000BB58B8 /* FlashPrompt.xib */,
+				C21001D51B4C07120038735B /* style.css */,
 				26FF31031680734B0091448C /* InfoPlist.strings */,
 				2611514F168B3A0E00F1566F /* LoginWindow.xib */,
 				26FF31071680734B0091448C /* main.m */,
@@ -273,6 +274,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C21001D61B4C07120038735B /* style.css in Resources */,
 				2618AE0816806FC500EC2E15 /* soundcleod.iconset in Resources */,
 				26FF310D1680734B0091448C /* Credits.rtf in Resources */,
 				26FF310E1680734B0091448C /* InfoPlist.strings in Resources */,
